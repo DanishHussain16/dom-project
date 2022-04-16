@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin-left: 1.5em;
+}
+
+.btn button{
+    width: 120px;
+    height: 40px;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    background-color: green;
+    color: #fff;
+    border: none;
+    font-size: 0.8em;
+}
+.btn button:hover{
+    background-color: rgb(6, 94, 6);
+}
+
+h1{
+    color: green;
+    font-size: 2.5em;
+}
+
+.task-list{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    list-style-type: none;
+    line-height: 1.9em;
+    margin-top: 1em;
+    list-style: numbers;
+}
+.list-item{
+    border-bottom: 1px solid #ddd;
+    padding: 0.5em;
+}
+
